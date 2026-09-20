@@ -56,8 +56,8 @@ def monitor_drift():
     data_path = config["data"]["path"]
     target = config["data"]["target"]
 
-    # Fail if more than 20% of features drift
-    drift_threshold = 0.20
+    # Read the allowed drift threshold from config
+    drift_threshold = config["monitoring"]["drift_threshold"]
 
     # Load training/reference data
     df = pd.read_csv(data_path)
