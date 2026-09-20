@@ -1,4 +1,4 @@
 [core]
-    remote = localstorage
-['remote "localstorage"']
-    url = ../../employee-attrition-dvc-storage
+    remote = origin
+['remote "origin"']
+    url = https://dagshub.com/sourceak/employee-attrition-mlops.dvc

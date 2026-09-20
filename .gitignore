@@ -28,3 +28,8 @@ Thumbs.db
 
 # Environment files
 .env
+# Local MLflow database
+mlflow.db
+
+# Pytest cache
+.pytest_cache/
